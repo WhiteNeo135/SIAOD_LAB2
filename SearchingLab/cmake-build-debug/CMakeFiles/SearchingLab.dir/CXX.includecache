@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrey/SearchingLab/Chess.cpp
+vector
+-
+
+/home/andrey/SearchingLab/Hash-labs.cpp
+
+/home/andrey/SearchingLab/Search_algs.cpp
+cmath
+-
+
+/home/andrey/SearchingLab/main.cpp
+iostream
+-
+Search_algs.cpp
+/home/andrey/SearchingLab/Search_algs.cpp
+Hash-labs.cpp
+/home/andrey/SearchingLab/Hash-labs.cpp
+Chess.cpp
+/home/andrey/SearchingLab/Chess.cpp
+
